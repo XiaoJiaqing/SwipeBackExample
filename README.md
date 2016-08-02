@@ -5,4 +5,4 @@
 
 
 ##效果：
-![右滑退出+沉浸式(透明)状态栏效果.gif](http://upload-images.jianshu.io/upload_images/1795742-8a626d4339255105.gif?imageMogr2/auto-orient/strip)
+![右滑退出+沉浸式(透明)状态栏效果.gif](https://github.com/XiaoJiaqing/SwipeBackExample/blob/master/app/src/main/res/raw/swipeback_example.gif)
