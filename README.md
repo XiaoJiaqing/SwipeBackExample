@@ -5,4 +5,4 @@
 
 
 ##效果：
-![右滑退出+沉浸式(透明)状态栏效果.gif](https://github.com/XiaoJiaqing/SwipeBackExample/blob/master/app/src/main/res/raw/swipeback_example.gif)
+![右滑退出+沉浸式(透明)状态栏效果.gif](https://github.com/XiaoJiaqing/SwipeBackExample/blob/master/app/src/main/res/raw/swipeback_example2.gif)
