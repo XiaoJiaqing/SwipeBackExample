@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ziv.swipebackexample.FourthActivity">
+    <include layout="@layout/activity_header"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="使用android:fitsSystemWindows=true属性,然后新建一个和ToolBar背景色一样的View添加到原来状态栏的位置"
+        android:gravity="center"
+        android:layout_above="@+id/next"
+        android:layout_marginBottom="16dp"
+        />
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="next"
+        android:visibility="invisible"
+        android:text="进入FifthActivity" />
+
+</RelativeLayout>
