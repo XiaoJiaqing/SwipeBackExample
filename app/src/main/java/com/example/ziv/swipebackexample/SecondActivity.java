@@ -10,6 +10,8 @@ import com.example.ziv.swipebackexample.utils.StateBarTranslucentUtils;
 
 /**
  * Created by JiaQing on 2016/7/24.
+ * 使用android:fitsSystemWindows=true属性，
+ * 直接在根布局设置一个和ToolBar一样的背景色,测试时发现这个方法在有DrawerLayout时好像不管用
  */
 public class SecondActivity extends BaseActivity {
 

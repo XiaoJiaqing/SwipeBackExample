@@ -1,7 +1,5 @@
 package com.example.ziv.swipebackexample;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -18,10 +16,12 @@ import android.view.MenuItem;
 import android.widget.RelativeLayout;
 
 import com.example.ziv.swipebackexample.utils.StateBarTranslucentUtils;
-import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 /**
  * Created by JiaQing on 2016/7/17.
+ * 含有DrawerLayout+NavigationView 页面
+ * 不使用android:fitsSystemWindows=true属性,
+ * 在ToolBar外面套一层布局，然后为ToolBar设置顶部margin
  */
 public class MainActivity extends BaseActivity
         implements NavigationView.OnNavigationItemSelectedListener {

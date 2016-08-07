@@ -3,6 +3,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * Created by JiaQing on 2016/7/24.
+ * 使用android:fitsSystemWindows=true属性,然后新建一个和ToolBar背景色一样的View添加到原来状态栏的位置
+ */
 public class FourthActivity extends BaseActivity {
 
 

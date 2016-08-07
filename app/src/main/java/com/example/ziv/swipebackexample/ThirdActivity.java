@@ -12,6 +12,7 @@ import com.example.ziv.swipebackexample.utils.StateBarTranslucentUtils;
 
 /**
  * Created by JiaQing on 2016/7/17.
+ * 如果设置全屏后,没有android:fitsSystemWindows=true这个属性，点击输入框后会出现输入框被输入法挡住的问题
  */
 public class ThirdActivity extends  BaseActivity {
 

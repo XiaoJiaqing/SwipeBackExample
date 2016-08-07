@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewTreeObserver;
 import android.widget.FrameLayout;
 
-import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 /**
  * Created by Ziv on 2016/7/31.

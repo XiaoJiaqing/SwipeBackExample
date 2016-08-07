@@ -1,13 +1,11 @@
 package com.example.ziv.swipebackexample;
 
-
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.widget.RelativeLayout;
-
-import com.example.ziv.swipebackexample.utils.AndroidBug5497Workaround;
 import com.example.ziv.swipebackexample.utils.StateBarTranslucentUtils;
+import java.io.File;
 
 import me.imid.swipebacklayout.lib.SwipeBackLayout;
 
@@ -46,6 +44,7 @@ public class BaseActivity extends SwipeBackActivity {
 
     protected void initData() {
 
+        File file ;
 
     }
 
